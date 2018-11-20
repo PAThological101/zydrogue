@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Landing page</title>
+    <style media="screen">
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      li {
+        float: left;
+      }
+
+      li a{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover:not(.active) {
+        background-color: #111;
+      }
+
+      .active {
+        background-color: #4CAF50;
+      }
+
+      body {
+/*
+  background-image: url("knightwithsword.jpg");
+  background-repeat: no-repeat;
+  */
+  background-color: black;
+
+
+height: 1000px;
+}
+
+h1, h3, p {
+  color: white;
+}
+
+
+    </style>
+  </head>
+  <body>
+
+
+    <a href="constructionFr.html" style="float: right; margin: 5px; color:#4dffff;" >French       </a>
+    <a href="index.html" style="float: right; margin: 5px; color:#4dffff;">Visit the Consumer Site    </a>
+    <br>
+    <br>
+    <ul>
+      <li><a class="active" href="hcp.html">HCP Home</a></li>
+      <li><a href="dosing.html">Dosing</a></li>
+      <li><a href="pl.html">Product Licence</a></li>
+    </ul>
+
+<br>
+<br>
+
+    <form action="hcphome.html" style="font-size: 20px;">
+
+    <fieldset style="width: 500px;">
+    <legend style="color: white;">One quick question before you dive in:</legend>
+
+    <p>When it comes to your male patient's sexual health, which one of the following do you focus most on? <br>
+
+      <input type="radio" name="hcptype" value="disease" onclick="window.location.href='hcphomea.html'"> The status of his sexual health<br>
+      <input type="radio" name="hcptype" value="patient" onclick="window.location.href='hcphomeb.html'"> The impact that his sexual health has on him (holistically)<br>
+      <input type="radio" name="hcptype" value="partner" onclick="window.location.href='hcphomec.html'"> The impact that his sexual health has on his partner<br>
+    </p>
+
+    </fieldset>
+    </form>
+    <br>
+    <a href="hcphomea.html" style="color: lightblue; font-size: 26px;">Skip</a>
+
+
+
+<br>
+<br>
+<br>
+<span style="font-size: 20px; color: white;">Nature's Tech Inc.<sup>TM</sup></span>
+<img style="height: 50px; width:80 px;" src="zydroguelogowhite.png" align="right">
+
+
+  </body>
+</html>
